@@ -1,1 +1,7 @@
-var arr = [1,2,3];
+'use strict'
+
+const map = (array) => {
+    return array.map(item => item +1)
+}
+
+export default map
